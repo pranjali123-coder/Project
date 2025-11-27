@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+main section {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  flex-grow: 1;
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: pointer;
+}
+main section:hover {
+  flex-grow: 3;
+}
+main section:nth-child(1) {
+  background-image: url(https://i.pinimg.com/736x/8d/05/47/8d0547f96a851d9967409c12617143c5.jpg);
+}
+main section:nth-child(2) {
+  background-image: url(https://i.pinimg.com/736x/a9/7d/0b/a97d0b0077263f8c3e9e82032fa17ef7.jpg);
+}
+main section:nth-child(3) {
+  background-image: url(https://i.pinimg.com/736x/50/3a/f4/503af4d5faf3ac86b0ff06fabb61afe9.jpg);
+}
+main section:nth-child(4) {
+  background-image: url(https://i.pinimg.com/736x/49/cf/3a/49cf3ac1fe034a59d51fcd9ba331555c.jpg);
+}
+main section:nth-child(5) {
+  background-image: url(https://i.pinimg.com/1200x/3d/2e/61/3d2e610559e9b17dda93c76c9a581356.jpg);
+}/*# sourceMappingURL=scssproject.css.map */
